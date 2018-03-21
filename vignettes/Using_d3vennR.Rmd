@@ -17,7 +17,7 @@ Venn diagrams are certainly not perfect.  However, if you understand their limit
 `d3vennR` is not on CRAN and probably never will be unless someone asks me to submit, so please use `devtools::install_github()` to install.
 
 ```{r eval = FALSE}
-devtools::install_github("timelyportfolio/d3vennR")
+devtools::install_github("Displayr/d3vennR")
 ```
 
 ## Examples from `venn.js`

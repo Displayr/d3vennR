@@ -40,5 +40,6 @@ Imports:
   htmltools,
   markdown
 Suggests:
-  knitr
+  knitr,
+  VennDiagram
 VignetteBuilder: knitr
