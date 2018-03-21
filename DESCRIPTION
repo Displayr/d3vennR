@@ -42,3 +42,4 @@ Suggests:
   VennDiagram,
   jsonlite
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1
