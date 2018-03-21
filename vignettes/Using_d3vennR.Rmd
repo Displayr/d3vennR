@@ -4,7 +4,7 @@ author: "Kent Russell"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Using d3vennR}
+  %\VignetteIndexEntry{Using_d3vennR}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
