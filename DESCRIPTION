@@ -20,7 +20,7 @@ Authors@R: c(
         , comment = "mds.js library in htmlwidgets/lib, https://github.com/benfred/mds.js"
       ),
       person(
-        "Sébastien", "Loisel"
+        "Sebastien", "Loisel"
         , role = c("aut", "cph")
         , comment = "numeric.js library in htmlwidgets/lib, https://github.com/sloisel/numeric"
       ),
