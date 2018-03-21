@@ -41,5 +41,6 @@ Imports:
   markdown
 Suggests:
   knitr,
-  VennDiagram
+  VennDiagram,
+  jsonlite
 VignetteBuilder: knitr
