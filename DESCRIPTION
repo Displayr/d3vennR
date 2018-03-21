@@ -36,9 +36,7 @@ Description: Make interactive d3.js Venn/Euler diagrams in R with the convenienc
 License: MIT + file LICENSE
 LazyData: TRUE
 Imports:
-  htmlwidgets,
-  htmltools,
-  markdown
+  htmlwidgets
 Suggests:
   knitr,
   VennDiagram,
