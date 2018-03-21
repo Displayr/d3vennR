@@ -2,7 +2,7 @@
 #'
 #' <Add Description>
 #'
-#' @import htmlwidgets
+#' @importFrom htmlwidgets createWidget JS
 #'
 #' @export
 d3vennR <- function(
@@ -50,6 +50,7 @@ d3vennR <- function(
 #' Widget output function for use in Shiny
 #'
 #' @export
+#' @importFrom htmlwidgets shinyWidgetOutput
 d3vennROutput <- function(outputId, width = '100%', height = '400px'){
   shinyWidgetOutput(outputId, 'd3vennR', width, height, package = 'd3vennR')
 }
@@ -57,6 +58,7 @@ d3vennROutput <- function(outputId, width = '100%', height = '400px'){
 #' Widget render function for use in Shiny
 #'
 #' @export
+#' @importFrom htmlwidgets shinyRenderWidget
 renderD3vennR <- function(expr, env = parent.frame(), quoted = FALSE) {
   if (!quoted) { expr <- substitute(expr) } # force quoted
   shinyRenderWidget(expr, d3vennROutput, env, quoted = TRUE)
