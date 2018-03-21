@@ -31,7 +31,7 @@ Authors@R: c(
         , email = "kent.russell@timelyportfolio.com"
       )
     )
-Maintainer: Kent Russell <kent.russell@timelyportfolio.com>
+Maintainer: Displayr <opensource@displayr.com>
 Description: Make interactive d3.js Venn/Euler diagrams in R with the convenience and infrastructure
               of an htmlwidget.
 License: MIT + file LICENSE
