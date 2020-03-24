@@ -2,7 +2,7 @@
 #'
 #' <Add Description>
 #'
-#' @importFrom htmlwidgets createWidget JS
+#' @importFrom htmlwidgets createWidget JS sizingPolicy
 #'
 #' @export
 d3vennR <- function(
