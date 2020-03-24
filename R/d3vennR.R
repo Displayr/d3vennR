@@ -43,7 +43,8 @@ d3vennR <- function(
     x,
     width = width,
     height = height,
-    package = 'd3vennR'
+    package = 'd3vennR',
+    sizingPolicy = sizingPolicy(browser.padding = 0)
   )
 }
 
